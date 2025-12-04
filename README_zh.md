@@ -42,7 +42,7 @@ wrangler.toml     # Cloudflare Pages + Functions 配置文件
 
 | 变量名           | 说明                                      |
 |------------------|-----------------------------------------|
-| NEWSAPI_KEY       | 你的 NewsAPI API Key                     |
+| NEWS_API_KEY       | 你的 NewsAPI API Key                     |
 | NEWS_LANGUAGE     | 语言代码，例如 `en` 或 `zh`             |
 
 > ⚠️ 不要在前端硬编码 API Key，请通过 Functions 代理保护。  
